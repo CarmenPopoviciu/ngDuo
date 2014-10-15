@@ -1,0 +1,29 @@
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container {
+    float: left;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 10px;
+    width: 500px;
+}
+
+.angular-world {
+    border: solid 1px darkred;
+}
+
+.angular-world h3{
+    color: darkred;
+}
+
+.web-components-world {
+    border: solid 1px darkblue;
+}
+
+.web-components-world h3 {
+    color: darkblue;
+}
