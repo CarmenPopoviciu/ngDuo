@@ -6,7 +6,8 @@
     "angular-route": "~1.3.0",
     "angular-cookies": "~1.3.0",
     "angular-resource": "~1.3.0",
-    "angular-sanitize": "~1.3.0"
+    "angular-sanitize": "~1.3.0",
+    "angular-bind-polymer": "~0.1.0"
   },
   "devDependencies": {}
 }

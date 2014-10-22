@@ -4,7 +4,8 @@ angular.module('ngDuoApp', [
   'ngCookies',
   'ngResource',
   'ngSanitize',
-  'ngRoute'
+  'ngRoute',
+  'eee-c.angularBindPolymer'
 ])
   .config(function ($routeProvider) {
     $routeProvider
