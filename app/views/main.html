@@ -1,13 +1,17 @@
 <div>
-    <h1>Hello ng-world!</h1>
-
-    <div class="container angular-world">
-        <h3>Angular directive</h3>
-        <ng-duo to-the-rescue="{{image}}"></ng-duo>
+    <div class="super-header">
+        <img class="center" src="../images/superhero.ico">
     </div>
 
-    <div class="container web-components-world">
-        <h3>Web component</h3>
-        <the-ng-duo to-the-rescue="{{image}}"></the-ng-duo>
+    <div>
+        <div class="world-container angular-world">
+            <h2>Angular SuperHeroes</h2>
+            <ng-duo to-the-rescue="{{heroesOfTheHour}}" ng-click="setHeroesOfTheHour()"></ng-duo>
+        </div>
+
+        <div class="world-container web-components-world">
+            <h2>Web Components SuperHeroes</h2>
+            <x-ngduo to-the-rescue="{{heroesOfTheHour}}" bind-polymer></x-ngduo>
+        </div>
     </div>
 </div>

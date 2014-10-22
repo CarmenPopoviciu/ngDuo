@@ -4,26 +4,31 @@ body {
   padding-bottom: 20px;
 }
 
-.container {
+.world-container {
     float: left;
     border-radius: 4px;
     padding: 5px;
-    margin: 10px;
+    margin: 10px 10px 10px 75px;
     width: 500px;
+    font-family: verdana;
 }
 
-.angular-world {
-    border: solid 1px darkred;
+.world-container h2 {
+    color: rgb(221, 14, 14);
 }
 
-.angular-world h3{
-    color: darkred;
+.super-header {
+    background: rgb(236, 236, 236);
+    height: 150px;
+    padding: 10px;
 }
 
-.web-components-world {
-    border: solid 1px darkblue;
+.super-header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.web-components-world h3 {
-    color: darkblue;
+.angular-heroes {
+    cursor: pointer;
 }
